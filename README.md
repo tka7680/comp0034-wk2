@@ -8,7 +8,7 @@ This assumes you have already forked the coursework repository and cloned the re
 
 1. Create and activate a virtual environment
 2. Install the requirements `pip install -r requirements.txt`
-3. Run the app `flask --app paralympics run --debug`
+3. Run the app `flask --app paralympics run --debug` (It's actually flask --app paralympics/paralympics.py run)
 4. Open a browser and go to http://127.0.0.1:5000
 5. Try it again with http://127.0.0.1:5000/name (replace name with your name)
 6. You should see the variable route for the homepage (the final activity from last week)
